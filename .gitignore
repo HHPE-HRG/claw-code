@@ -10,3 +10,7 @@ archive/
 .claw/sessions/
 .clawhip/
 status-help.txt
+
+# OS
+.DS_Store
+**/.DS_Store
