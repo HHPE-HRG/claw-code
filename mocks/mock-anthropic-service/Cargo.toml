@@ -1,5 +1,6 @@
 [package]
 name = "mock-anthropic-service"
+workspace = "../../rust"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
@@ -10,7 +11,7 @@ name = "mock-anthropic-service"
 path = "src/main.rs"
 
 [dependencies]
-api = { path = "../api" }
+api = { path = "../../rust/crates/api" }
 serde_json.workspace = true
 tokio = { version = "1", features = ["io-util", "macros", "net", "rt-multi-thread", "signal", "sync"] }
 
